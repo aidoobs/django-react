@@ -3,7 +3,7 @@ import axios from 'axios'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import UploadResume from './UploadResume.js'
 import UploadResume2 from './UploadResume2.js'
-import FullResume from './components/FullResume.js'
+import FullResume from './components/ResumeEditor/FullResume.js'
 import Dashboard from './Dashboard.js'
 import ConfigProfileCard from './ConfigProfileCard.js'
 export default function App() {

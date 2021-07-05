@@ -1,5 +1,6 @@
 import React from 'react'
-import '../style/FullResume.css'
+//import '../style/FullResume.css'
+import '../../style/FullResume.css'
 import { WhatsappShareButton } from 'react-share';
 import { WhatsappIcon } from 'react-share'
 export default function FullResume() {
