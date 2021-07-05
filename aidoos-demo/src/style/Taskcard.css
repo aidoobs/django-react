@@ -1,0 +1,34 @@
+.taskcard-container {
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  background-color: white;
+}
+.task-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.task-heading > .task-name {
+  width: 60%;
+}
+.task-heading > .task-button {
+  margin: 5px;
+  padding: 5px 10px;
+  color: white;
+  background-image: linear-gradient(to bottom, darkblue, indigo);
+}
+.task-detail-table {
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+.task-detail-table th,
+td {
+  min-width: 100px;
+  text-align: center;
+}
+.task-showmore {
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+.upload-container-2 {
+  max-width: 500px;
+  width: 100%;
+  margin: 5% auto;
+}
+.upload-container-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 2%;
+}
+.upload-button {
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2px;
+  border: 2px solid indigo;
+  color: indigo;
+}
+.upload-button.alt {
+  border: 2px solid indigo;
+  background-color: indigo;
+  color: white;
+}
+.upload-message-box {
+  margin: 5px auto;
+  width: 100%;
+  color: black;
+  padding: 1%;
+  font-size: 1rem;
+  text-align: center;
+}
+.upload-message-box.green,
+.upload-message-box.red {
+  background-color: #aaa;
+  color: white;
+  font-weight: bold;
+}
+/*
+.upload-message-box.red {
+  border: 1px solid red;
+  color: red;
+}*/
+.dashboard-bottom-section {
+  display: flex;
+}
+.dashboard-bottom-left-section {
+  padding: 10px;
+  border: 1px solid #999;
+  width: 25%;
+}

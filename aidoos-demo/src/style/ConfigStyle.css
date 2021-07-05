@@ -1,0 +1,28 @@
+.config-container {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+}
+.config-left-side,
+.config-right-side {
+  display: flex;
+  height: 80vh;
+  overflow: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  flex: 1;
+}
+.config-update-btn {
+  padding: 5px;
+  cursor: pointer;
+  background-color: indigo;
+  color: white;
+  border: none;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+}
+.config-right-side > .config-right-side-select {
+  cursor: pointer;
+}

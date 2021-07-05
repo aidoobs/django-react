@@ -1,0 +1,63 @@
+.fullresume-container {
+  max-width: 600px;
+  overflow: hidden;
+  width: 95%;
+  margin: 5px auto;
+  background-color: white;
+  height: 90vh;
+  border: 0.2px solid #999;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.share-buttons {
+  position: fixed;
+  top: 40%;
+  right: 5%;
+}
+.fullresume-top {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 2%;
+  background-color: #aaa;
+}
+.fullresume-bottom {
+  padding: 0;
+}
+.fullresume-section {
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 2%;
+  background-color: #eee;
+}
+.fullresume-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.fullresume-detail {
+  font-size: 1.2rem;
+  color: #333;
+}
+.section-detail {
+  width: 80%;
+}
+.large {
+  font-size: 1.6rem;
+}
+.medium {
+  font-size: 1.3rem;
+}
+.small {
+  font-size: 1rem;
+}
+.dark {
+  font-weight: bold;
+  color: black;
+}
+.light {
+  font-weight: lighter;
+  color: #333;
+}

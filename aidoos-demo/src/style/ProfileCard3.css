@@ -1,0 +1,80 @@
+.container-three {
+  margin: 10px;
+  max-width: 350px;
+  width: 100%;
+  position: relative;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px #33ff9966;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.container-three-left,
+.container-three-right {
+  display: flex;
+  gap: 2%;
+  flex-direction: column;
+}
+.container-three-left {
+  flex: 2;
+  padding: 0px 25px;
+  align-content: flex-start;
+  justify-content: center;
+}
+.container-three-right {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.container-three-right > img {
+  width: 75px;
+  height: 85px;
+  border: 2px solid #33ff99;
+  border-radius: 5px;
+}
+.heading-large-3 {
+  color: #33ff99;
+  font-size: 1.25rem;
+  width: 100%;
+}
+.heading-medium-3,
+.heading-small-3 {
+  color: #555;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.heading-medium-3:nth-child(2) {
+  border-left: 2px solid #33ff99;
+  padding: 0px 5px;
+}
+.heading-small-3 {
+  font-size: 0.8rem;
+}
+.container-three-right > .see-profile-3 {
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  background-color: #33ff99;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#aidoos-badge {
+  position: absolute;
+  top: 10px;
+  right: -5%;
+  transform: rotateZ(30deg);
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  background-color: #33ff99;
+  color: white;
+}
+#aidoos-td {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  margin: 5px;
+  font-size: 0.65rem;
+  color: #33ff99;
+}

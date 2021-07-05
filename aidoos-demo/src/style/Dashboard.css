@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+.dashboard-top-section {
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid #999;
+  align-items: center;
+  padding: 10px;
+  justify-content: flex-start;
+}
+.d-t-s-left,
+.d-t-s-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.d-t-s-right {
+  align-items: flex-end;
+  justify-content: center;
+}
+.dashboard-info-box {
+  width: 200px;
+  gap: 10px;
+  min-height: 30px;
+  text-align: left;
+  cursor: pointer;
+  margin: 5px;
+  /*background-color: rgba(75, 0, 130, 0.88);*/
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 139, 0.9),
+    rgba(0, 0, 139, 0.8)
+  );
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  font-size: 1rem;
+}
+.dashboard-info-box-alt {
+  width: 200px;
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  height: 100px;
+  /*border: 1px solid indigo;*/
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 139, 0.9),
+    rgba(0, 0, 139, 0.8)
+  );
+  /*background-color: rgba(75, 0, 130, 0.88);*/
+  color: white;
+  border-radius: 5px;
+}
+.dashboard-info-box-alt.up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-info-box-other {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  justify-self: flex-end;
+  min-height: 100px;
+  background-color: white;
+  border: 0.5px solid #999;
+}
+.dashboard-info-box-other > div:nth-child(1) {
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 139, 0.9),
+    rgba(0, 0, 139, 0.8)
+  );
+  /*background-color: #777777;
+  background-color: indigo;*/
+  color: white;
+  font-size: 1.2rem;
+}
+.spans-div {
+  display: flex;
+  font-size: 1rem;
+  padding: 0 10px;
+  justify-content: space-between;
+  margin: 10px 5px;
+}
+.spans-div span {
+  color: black;
+}
+.dashboard-bottom-section {
+  display: flex;
+  padding: 2%;
+  gap: 10px;
+  justify-content: center;
+  background-color: #ddd;
+}
+.dashboard-bottom-left-section {
+  border: 1px solid #999;
+  flex: 1;
+  height: 0%;
+  background-color: white;
+}
+.dashboard-bottom-left-section > .detail-section {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+}
+.dashboard-bottom-center-section {
+  overflow: hidden;
+  flex: 2;
+  padding: 0 10px;
+}
+.d-b-c-manual-card {
+  padding: 10px;
+  background-color: white;
+}
+.dashboard-bottom-right-section {
+  flex: 1;
+  height: 0%;
+}
+.d-b-r-card {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+.d-b-r-card > div:nth-child(1) {
+  padding: 2%;
+  background-image: linear-gradient(to bottom, darkblue, indigo);
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}

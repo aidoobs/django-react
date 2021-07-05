@@ -1,0 +1,13 @@
+.navbar-container{
+    display: flex;
+    min-height: 40px;
+    padding:5px 10px;
+    align-items: center;
+    background-color: black;
+}
+.navbar-container-left{
+    color:white;
+    padding-left:2.5%;
+    font-weight: bold;
+    font-size:1.2rem;
+}

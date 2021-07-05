@@ -1,0 +1,46 @@
+.profile-card-form-main-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  justify-content: center;
+}
+.profile-card-form-container > label {
+  color: white;
+  align-self: flex-start;
+}
+.profile-card-form-container {
+  gap: 10px;
+  position: relative;
+  background-color: indigo;
+  padding: 2% 2%;
+  overflow: hidden;
+  max-width: 450px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-card-form-container > input {
+  width: 90%;
+  align-self: flex-start;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+#cross {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
